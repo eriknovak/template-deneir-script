@@ -1,6 +1,6 @@
 name: Documentation request
 description: Create a report about a missing documentation
-title: "\U0001F4C4 "
+title: ""
 labels: ["documentation"]
 body:
   - type: markdown
@@ -11,7 +11,7 @@ body:
     id: missing-doc
     attributes:
       label: Describe the missing documentation
-      description: Provide a detailed description of the issue you faced.
+      description: Which part of the documentation is missing?
       placeholder: Describe the issue with a part of the documentation (missing, unclear, at the wrong place).
     validations:
       required: true

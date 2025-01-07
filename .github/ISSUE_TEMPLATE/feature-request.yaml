@@ -8,24 +8,17 @@ body:
       value: |
         Thanks for taking the time to fill out this feature request!
   - type: textarea
-    id: issue-connection
+    id: feature-request
     attributes:
-      label: Connected to problem?
+      label: What problem does this feature solve?
       description: Is your feature request related to a problem? Please describe.
-      placeholder: Provide a clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
+      placeholder: Describe the problem you are experiencing or what improvement you would like to see.
     validations:
       required: true
   - type: textarea
     id: possible-solution
     attributes:
       label: Solution?
-      description: Describe the solution you'd like
-    validations:
-      required: true
-  - type: textarea
-    id: alternatives
-    attributes:
-      label: Alternatives?
-      description: Describe alternatives you've considered
+      description: Describe the proposed solution.
     validations:
       required: false

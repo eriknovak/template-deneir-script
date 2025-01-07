@@ -1,16 +1,16 @@
-# notebook
-ipywidgets>=7.5
-notebook
-# analysis
+# BASIC
 numpy
 pandas
-spacy
+# ML & NLP
 torch
+spacy
+scikit-learn
 transformers
+accelerate
 datasets
+# VIS
 matplotlib
 datachart
-# utility
+# OTHER
 python-dotenv
 tqdm
-black

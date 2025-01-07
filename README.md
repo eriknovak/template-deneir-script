@@ -4,10 +4,26 @@ This is a template repository for creating an experiment environment in Python. 
 
 Inspired by the [cookiecutter] folder structure.
 
-**Instructions:**
+## 📁 Project structure
 
-- Search for all TODOs in the project and add the appropriate values
-- Rename this README title and description
+The project is structured as follows:
+
+```plaintext
+.
+├── data/                    # Data used in the experiments
+├── models/                  # Models container folder
+├── notebooks/               # Experiment notebooks
+├── pipelines/               # The experiment pipelines
+├── results/                 # Experiment results
+├── scripts/                 # The scripts
+├── src/                     # Source code
+├── .gitignore               # Git ignore config
+├── .pre-commit-config.yaml  # Pre-commit config
+├── LICENSE                  # License
+├── README.md                # Project readme
+├── pyproject.toml           # The project config
+└── requirements.txt         # Project dependencies
+```
 
 ## ☑️ Requirements
 
@@ -44,10 +60,20 @@ deactivate
 
 Check the `requirements.txt` file. If you have any additional requirements, add them here.
 
+#### Using pip
 To install the requirements run:
 
 ```bash
-pip install -e .
+# install the dependencies
+pip install -e .[dev,test]
+```
+
+### Install pre-commit hooks
+
+To install the pre-commit hooks, run the following command:
+
+```bash
+pre-commit install
 ```
 
 ## 🗃️ Data
@@ -84,24 +110,6 @@ When the model is trained, the following script shows how one can use the model:
 ```python
 TODO: Provide an example of how to use the model
 ```
-
-## 📚 Papers
-
-In case you use any of the components for your research, please refer to (and cite) the papers:
-
-TODO: Paper
-
-### 📓 Related work
-
-TODO: Related work
-
-## 🚧 Work In Progress
-
-- [ ] Setup script
-- [ ] Code for data preparation
-- [ ] Code for model training
-- [ ] Code for model validation
-- [ ] Code for model evaluation
 
 ## 📣 Acknowledgments
 

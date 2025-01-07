@@ -134,9 +134,8 @@ dmypy.json
 
 .vscode
 
-data/**/
-!data/README.md
+data/*
+!data/.gitkeep
 
-models/**/
-!models/README.md
-
+models/*
+!models/.gitkeep
